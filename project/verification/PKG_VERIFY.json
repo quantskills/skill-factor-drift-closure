@@ -1,0 +1,151 @@
+{
+  "no_peek_8_refits": [
+    {
+      "alarm": "20250103",
+      "cutoff": "20241122",
+      "train_max": "20241122",
+      "ok": true,
+      "weeks_gap": 6
+    },
+    {
+      "alarm": "20250228",
+      "cutoff": "20250117",
+      "train_max": "20250117",
+      "ok": true,
+      "weeks_gap": 6
+    },
+    {
+      "alarm": "20250425",
+      "cutoff": "20250314",
+      "train_max": "20250314",
+      "ok": true,
+      "weeks_gap": 6
+    },
+    {
+      "alarm": "20250829",
+      "cutoff": "20250718",
+      "train_max": "20250718",
+      "ok": true,
+      "weeks_gap": 6
+    },
+    {
+      "alarm": "20250926",
+      "cutoff": "20250815",
+      "train_max": "20250815",
+      "ok": true,
+      "weeks_gap": 6
+    },
+    {
+      "alarm": "20251205",
+      "cutoff": "20251024",
+      "train_max": "20251024",
+      "ok": true,
+      "weeks_gap": 6
+    },
+    {
+      "alarm": "20260130",
+      "cutoff": "20251219",
+      "train_max": "20251219",
+      "ok": true,
+      "weeks_gap": 6
+    },
+    {
+      "alarm": "20260619",
+      "cutoff": "20260508",
+      "train_max": "20260508",
+      "ok": true,
+      "weeks_gap": 6
+    }
+  ],
+  "mature_gate": [
+    {
+      "date": "20250627",
+      "monitor_value": 0.17861094136750638,
+      "mature_only": 0.17861094136750638,
+      "with_immature_labels": 0.12754220686254109,
+      "diff": -0.051068734504965296
+    },
+    {
+      "date": "20260130",
+      "monitor_value": 0.06215424097363397,
+      "mature_only": 0.06215424097363397,
+      "with_immature_labels": 0.052075104377702824,
+      "diff": -0.010079136595931147
+    },
+    {
+      "date": "20260731",
+      "monitor_value": -0.04048186158819079,
+      "mature_only": -0.04048186158819079,
+      "with_immature_labels": -0.056874648467156605,
+      "diff": -0.016392786878965816
+    }
+  ],
+  "coefficient_equivalence": [
+    {
+      "date": "20250103",
+      "manual_gross": 0.03915982470296591,
+      "engine_gross_phase0": 0.039159824702965904,
+      "diff": -6.938893903907228e-18,
+      "n_names": 50
+    },
+    {
+      "date": "20251205",
+      "manual_gross": 0.030463725082273622,
+      "engine_gross_phase0": 0.030463725082273622,
+      "diff": 0.0,
+      "n_names": 50
+    },
+    {
+      "date": "20261016",
+      "manual_gross": 0.0,
+      "engine_gross_phase0": 0.0,
+      "diff": 0.0,
+      "n_names": 50
+    }
+  ],
+  "platform_cli_reproduction": {
+    "records": 8,
+    "all_ok": true,
+    "min_spearman": 0.9999999999999998,
+    "max_centered_abs_diff": 3.273423199168235e-15
+  },
+  "ew_artifact_alignment": {
+    "spearman_vs_stored_2026": 0.9999999999858237,
+    "n": 41222
+  },
+  "multiplicity": {
+    "family_size": 16,
+    "periods": 23,
+    "bootstrap": 8000,
+    "reality_check_p_positive": 0.996375,
+    "reality_check_p_negative": 0.993125,
+    "min_p_two": 0.02575,
+    "min_p_bh": 0.412,
+    "n_survive_bh_05": 0,
+    "n_bh_10": 0
+  },
+  "retrain_placebo": {
+    "equivalence": {
+      "coef_max_diff": 3.100050554802336e-10
+    },
+    "long": {
+      "main_delta": 0.003934889254360294,
+      "placebo_mean": 0.03724100383741622,
+      "p5": -0.07772319006221452,
+      "p95": 0.13429396425245774,
+      "main_above_p95": false
+    },
+    "hedge": {
+      "main_delta": 0.0037151991905274018,
+      "placebo_mean": 0.014629789742840363,
+      "p5": -0.04253222386064439,
+      "p95": 0.07940369097839303,
+      "main_above_p95": false
+    }
+  },
+  "oos_boundary": {
+    "eval_start": "20250103",
+    "used_for_selection": false,
+    "2026_used_for_selection": false
+  }
+}

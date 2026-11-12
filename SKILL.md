@@ -1,26 +1,27 @@
 ---
 name: skill-factor-drift-closure
 description: Evaluate whether a factor-drift alert creates net value after the response action. Use for out-of-sample comparisons of no action, fixed de-risking, alert-triggered downweighting, retraining or signal switching, including false-alarm cost and recovery latency.
-license: GPL-3.0-only
-metadata:
-  quantSkills:
-    schema_version: 2.0.0
-    organization: QuantSkills
-    organization_url: https://github.com/quantskills
-    repository: skill-factor-drift-closure
-    repository_url: https://github.com/quantskills/skill-factor-drift-closure
-    project_type: skill
-    maintainer: QuantSkills community maintainers
-    maintainer_type: community
-    collection: factor-quality
-    workflow: {primary_stage: evaluation, workflow_stages: [evaluation, audit]}
-    tags: [factor-drift, closed-loop, false-alarm, recovery-latency, out-of-sample]
-    summary_zh: 检验因子漂移预警后的降权、重训或换信号是否产生扣成本后的样本外增量。
-    summary_en: Out-of-sample evaluation of net value after factor-drift response actions.
-    status: community-project
-    validation_level: runnable
-    platforms: [cursor, claude-code, codex, hermes, openclaw]
-    interface: {mode: file-based, inputs: [panel, alert-ledger, config], outputs: [arm-summary, event-ledger, inference, decision-report]}
+quantSkills:
+  schema_version: 2.0.0
+  organization: QuantSkills
+  organization_url: https://github.com/quantskills
+  repository: skill-factor-drift-closure
+  repository_url: https://github.com/quantskills/skill-factor-drift-closure
+  project_type: skill
+  license: GPL-3.0-only
+  maintainer: QuantSkills community maintainers
+  collection: factor-quality
+  catalog: {category: "02", subcategory: 02.factor-evaluation}
+  workflow: {primary_stage: evaluation, workflow_stages: [evaluation, audit]}
+  tags: [factor-drift, closed-loop, false-alarm, recovery-latency, out-of-sample]
+  requires: []
+  summary_zh: 检验因子漂移预警后的降权、重训或换信号是否产生扣成本后的样本外增量。
+  summary_en: Out-of-sample evaluation of net value after factor-drift response actions.
+  status: community-project
+  validation_level: runnable
+  maintainer_type: community
+  platforms: [cursor, claude-code, codex, hermes, openclaw]
+  interface: {mode: file-based, inputs: [panel, alert-ledger, config], outputs: [arm-summary, event-ledger, inference, decision-report]}
 ---
 
 # 漂移预警闭环评估

@@ -1,0 +1,47 @@
+{
+  "all_ok": true,
+  "checks": [
+    {
+      "name": "one-week label contract",
+      "ok": true
+    },
+    {
+      "name": "maturity remains five observations",
+      "ok": true
+    },
+    {
+      "name": "holding period is one observation",
+      "ok": true
+    },
+    {
+      "name": "20 metric cells present",
+      "ok": true
+    },
+    {
+      "name": "gross-cost-net reconciles",
+      "ok": true
+    },
+    {
+      "name": "no duplicate phase cycles",
+      "ok": true
+    },
+    {
+      "name": "18 hypotheses and 22 matched cycles",
+      "ok": true
+    },
+    {
+      "name": "platform refits equivalent",
+      "ok": true
+    },
+    {
+      "name": "88 evaluation dates",
+      "ok": true
+    },
+    {
+      "name": "v2 remains separate",
+      "ok": true
+    }
+  ],
+  "checks_passed": 10,
+  "interpretation": "exploratory retrospective one-week label comparison; v2 remains authoritative"
+}

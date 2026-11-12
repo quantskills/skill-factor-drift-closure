@@ -1,0 +1,320 @@
+{
+  "all_ok": true,
+  "checks": [
+    {
+      "name": "financial/accounting/leakage regression suite",
+      "ok": true
+    },
+    {
+      "name": "frozen source hash: data/weekly_slim.csv",
+      "ok": true
+    },
+    {
+      "name": "frozen source hash: data/panel_for_platform.csv",
+      "ok": true
+    },
+    {
+      "name": "frozen source hash: data/upstream_summary.json",
+      "ok": true
+    },
+    {
+      "name": "frozen source hash: data/third_period_psi.csv",
+      "ok": true
+    },
+    {
+      "name": "frozen source hash: data/validation_2026_signal.csv",
+      "ok": true
+    },
+    {
+      "name": "platform ML source unchanged",
+      "ok": true
+    },
+    {
+      "name": "threshold calibration ends before evaluation",
+      "ok": true
+    },
+    {
+      "name": "threshold calibration is 2024 only",
+      "ok": true
+    },
+    {
+      "name": "health baseline predates evaluation",
+      "ok": true
+    },
+    {
+      "name": "equal-threshold IC rule has zero additional latch delay",
+      "ok": true
+    },
+    {
+      "name": "analysis plan matches results",
+      "ok": true
+    },
+    {
+      "name": "evaluation tail matured",
+      "ok": true
+    },
+    {
+      "name": "all health labels available at least five observations later",
+      "ok": true
+    },
+    {
+      "name": "health uses project-local skill",
+      "ok": true
+    },
+    {
+      "name": "health entry hash matches execution",
+      "ok": true
+    },
+    {
+      "name": "health input hash matches execution",
+      "ok": true
+    },
+    {
+      "name": "drift uses project-local skill",
+      "ok": true
+    },
+    {
+      "name": "drift entry hash matches execution",
+      "ok": true
+    },
+    {
+      "name": "drift input hash matches execution",
+      "ok": true
+    },
+    {
+      "name": "health probabilities/CUSUM unchanged by future suffix",
+      "ok": true
+    },
+    {
+      "name": "all main-experiment platform refits executed and equivalent",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20250103",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20250228",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20250704",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20251010",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20251205",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20260123",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20260206",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20260306",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20260320",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20260522",
+      "ok": true
+    },
+    {
+      "name": "refit compressed input immutable: 20260626",
+      "ok": true
+    },
+    {
+      "name": "no duplicate phase-arm decisions",
+      "ok": true
+    },
+    {
+      "name": "gross minus costs equals net",
+      "ok": true
+    },
+    {
+      "name": "trade and borrow costs reconcile",
+      "ok": true
+    },
+    {
+      "name": "all known phase cycles present",
+      "ok": true
+    },
+    {
+      "name": "all decisions mature and matched",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'A')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'A_ew')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'B')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'C_drift')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'C_health')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'C_ic')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'C_psi')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'D_drift')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'D_health')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'D_ic')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'F_drift')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'F_health')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('hedge', 'F_ic')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'A')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'A_ew')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'B')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'C_drift')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'C_health')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'C_ic')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'C_psi')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'D_drift')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'D_health')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'D_ic')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'F_drift')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'F_health')",
+      "ok": true
+    },
+    {
+      "name": "phase totals recomputed ('long', 'F_ic')",
+      "ok": true
+    },
+    {
+      "name": "increment accounting reconciled",
+      "ok": true
+    },
+    {
+      "name": "event plus outside-event P&L reconciled",
+      "ok": true
+    },
+    {
+      "name": "50 placebo seeds for each expression/action",
+      "ok": true
+    },
+    {
+      "name": "24 hypotheses, serially aware bootstrap",
+      "ok": true
+    },
+    {
+      "name": "drift action arms are present",
+      "ok": true
+    },
+    {
+      "name": "drift alarm is persisted",
+      "ok": true
+    },
+    {
+      "name": "drift CLI warning state reaches evaluation trigger",
+      "ok": true
+    },
+    {
+      "name": "27 health parameter perturbations reported without tuning",
+      "ok": true
+    },
+    {
+      "name": "deliverable exists: README.md",
+      "ok": true
+    },
+    {
+      "name": "deliverable exists: report.md",
+      "ok": true
+    },
+    {
+      "name": "deliverable exists: dashboard.html",
+      "ok": true
+    },
+    {
+      "name": "deliverable exists: TASK_CHECKLIST.md",
+      "ok": true
+    },
+    {
+      "name": "deliverable exists: ARTIFACTS.md",
+      "ok": true
+    }
+  ],
+  "checks_passed": 77,
+  "limitations": [
+    "No proof of prospective holdout: historical sample already inspected",
+    "Platform GUI registration/submission not verified",
+    "Upstream point-in-time membership and real execution timing not independently reconstructed",
+    "Missing labels imputed explicitly; impact and borrow availability not modeled"
+  ]
+}

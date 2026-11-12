@@ -1,0 +1,16 @@
+test_initial_loss_is_drawdown (test_engine_v2.AccountingTests.test_initial_loss_is_drawdown) ... ok
+test_pnl_drift_generates_rebalance_cost_and_fees_reconcile (test_engine_v2.AccountingTests.test_pnl_drift_generates_rebalance_cost_and_fees_reconcile) ... ok
+test_recovery_excludes_exit_and_marks_censoring (test_engine_v2.AccountingTests.test_recovery_excludes_exit_and_marks_censoring) ... ok
+test_selling_disappearing_position_is_charged (test_engine_v2.AccountingTests.test_selling_disappearing_position_is_charged) ... ok
+test_bh_uses_entire_family (test_engine_v2.InferenceTests.test_bh_uses_entire_family) ... ok
+test_reality_check_compares_to_observed_effect (test_engine_v2.InferenceTests.test_reality_check_compares_to_observed_effect) ... ok
+test_calibration_and_maturity_are_independent_of_future (test_engine_v2.LeakageTests.test_calibration_and_maturity_are_independent_of_future) ... ok
+test_training_excludes_purge_and_future_labels (test_engine_v2.LeakageTests.test_training_excludes_purge_and_future_labels) ... ok
+test_frozen_training_uses_no_2026_or_immature_labels (test_lightgbm_2026.LightGBMBoundaries.test_frozen_training_uses_no_2026_or_immature_labels) ... ok
+test_rolling_window_has_five_excluded_observations (test_lightgbm_2026.LightGBMBoundaries.test_rolling_window_has_five_excluded_observations) ... ok
+test_tail_exclusion_is_calendar_only_and_balanced (test_lightgbm_2026.LightGBMBoundaries.test_tail_exclusion_is_calendar_only_and_balanced) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 4.851s
+
+OK

@@ -1,0 +1,44 @@
+{
+  "checks": {
+    "frozen_baseline_and_mature_labels": true,
+    "drift_cli_warning_reaches_three_action_arms": true,
+    "false_alarm_cost_and_recovery_latency": true,
+    "test_period_training_isolation": true,
+    "full_run_and_acceptance": true,
+    "gui_registration_verified": false,
+    "quantstudio_project_run_verified": true,
+    "quantstudio_session_execution_verified": true
+  },
+  "dimensions": [
+    {
+      "name": "完成",
+      "max": 30,
+      "score": 27,
+      "reason": "QuantStudio 会话已从项目路径执行完整管线并保存输入、输出与测试记录；任务页提交仍未执行。"
+    },
+    {
+      "name": "方法",
+      "max": 35,
+      "score": 33,
+      "reason": "成熟度、训练隔离、交易成本、BH、循环块 bootstrap、Reality Check 和敏感性齐全；上游发布时间与真实成交尚未独立重建。"
+    },
+    {
+      "name": "平台",
+      "max": 25,
+      "score": 20,
+      "reason": "QuantStudio profile/session 与项目工作区、输入哈希、stdout、结果和 manifest 已记录；平台未暴露独立 run ID，GUI 注册/提交未执行。"
+    },
+    {
+      "name": "文档",
+      "max": 10,
+      "score": 10,
+      "reason": "README、完整报告、验收清单和本评分均说明目的、结果、分析、边界和证据入口。"
+    }
+  ],
+  "Q": 90,
+  "D": 1.0,
+  "V": 0.8,
+  "points": 72,
+  "scoring_note": "QuantStudio real session execution and persisted input/output records are verified. No independent platform run id or task-page submission was exposed; GUI registration remains unverified. V=0.80 because the research value is directional and multiplicity-adjusted evidence is negative.",
+  "family_size": 24
+}
