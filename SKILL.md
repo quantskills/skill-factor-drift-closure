@@ -5,11 +5,12 @@ license: GPL-3.0-only
 metadata:
   quantSkills:
     schema_version: 2.0.0
-    organization: quantskills
+    organization: QuantSkills
     organization_url: https://github.com/quantskills
     repository: skill-factor-drift-closure
     repository_url: https://github.com/quantskills/skill-factor-drift-closure
     project_type: skill
+    maintainer: QuantSkills community maintainers
     maintainer_type: community
     collection: factor-quality
     workflow: {primary_stage: evaluation, workflow_stages: [evaluation, audit]}
@@ -23,6 +24,14 @@ metadata:
 ---
 
 # 漂移预警闭环评估
+
+## 项目声明
+
+- **做什么**：评估因子漂移预警后的降权、重训或换信号是否产生扣除交易成本后的样本外增量。
+- **如何使用**：按 `references/data-contract.md` 准备面板、冻结预测、成熟标签、预警账本和配置，然后运行 `scripts/closed_loop_evaluation.py`；项目级完整实现位于 `project/`。
+- **维护者**：QuantSkills community maintainers；项目接受社区维护者审核后的修订。
+- **支持场景**：因子质量研究、漂移闭环评估、误报成本分析、恢复延迟分析、重训与固定降权对照、QuantStudio 运行记录审计。
+- **重要限制**：本 Skill 不提供市场数据，不授权交易；输入数据、模型冻结状态、标签成熟度和成本假设必须由使用者提供并记录。历史回顾结果不能自动证明未来有效性；QuantStudio 证据必须来自真实平台入口，EVO 或普通本地 CLI 不能替代。
 
 这个 Skill 检验“发现漂移以后采取动作是否真的有净收益”，而不是重复生成 PSI、KS 或 CUSUM 仪表盘。它把冻结预测、已成熟标签、交易成本、预警时点和处置动作放到同一套样本外对照中。
 
