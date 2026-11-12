@@ -1,0 +1,17 @@
+schema_version: 2.0.0
+organization: quantskills
+organization_url: https://github.com/quantskills
+repository: skill-factor-drift-closure
+project_type: skill
+license: GPL-3.0-only
+collection: factor-quality
+workflow:
+  primary_stage: evaluation
+  workflow_stages: [evaluation, audit]
+tags: [factor-drift, closed-loop, false-alarm, recovery-latency, out-of-sample]
+summary_zh: 检验因子漂移预警后的降权、重训或换信号是否产生扣成本后的样本外增量。
+summary_en: Out-of-sample evaluation of net value after factor-drift response actions.
+status: community-project
+validation_level: runnable
+maintainer_type: community
+platforms: [cursor, claude-code, codex, hermes, openclaw]

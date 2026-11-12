@@ -1,0 +1,4 @@
+interface:
+  display_name: "Factor Drift Closure"
+  short_description: "Test whether post-drift actions add net value"
+  default_prompt: "Evaluate this factor-drift response loop out of sample. Compare no action, fixed de-risking and alert-triggered actions, then report false-alarm cost, recovery latency, multiple-comparison evidence and decision boundaries."

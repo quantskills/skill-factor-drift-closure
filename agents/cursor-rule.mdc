@@ -1,0 +1,7 @@
+---
+description: Factor drift closure evaluation workflow
+globs: ["**/*"]
+alwaysApply: false
+---
+
+Use `SKILL.md` for drift-response evaluation. Keep calibration separate from evaluation, wait for mature labels, compare against fixed de-risking, and record false alarms and recovery latency.
