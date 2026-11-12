@@ -1,0 +1,7 @@
+{
+  "step": "analysis",
+  "exit_code": 0,
+  "ok": true,
+  "marker": "results/v2/inference.json",
+  "marker_sha256": "d45dc065877d24c970d14c5222ff44768fad42cc5e28a316f65b710be82b6c3e"
+}

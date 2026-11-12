@@ -1,0 +1,104 @@
+{
+  "all_ok": true,
+  "records": [
+    {
+      "date": "20250103",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 1.7277845820728999e-15,
+      "train_last": "20241122",
+      "gap_observations": 6,
+      "rows": 896
+    },
+    {
+      "date": "20250228",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 9.43689570931383e-16,
+      "train_last": "20250117",
+      "gap_observations": 6,
+      "rows": 894
+    },
+    {
+      "date": "20250704",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 8.207410445715269e-16,
+      "train_last": "20250523",
+      "gap_observations": 6,
+      "rows": 892
+    },
+    {
+      "date": "20251010",
+      "exit_code": 0,
+      "spearman": 0.9999999999999998,
+      "max_abs_diff": 9.020562075079397e-16,
+      "train_last": "20250829",
+      "gap_observations": 6,
+      "rows": 988
+    },
+    {
+      "date": "20251205",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 7.476658181460039e-16,
+      "train_last": "20251024",
+      "gap_observations": 6,
+      "rows": 991
+    },
+    {
+      "date": "20260123",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 6.505213034913027e-16,
+      "train_last": "20251212",
+      "gap_observations": 6,
+      "rows": 896
+    },
+    {
+      "date": "20260206",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 6.38378239159465e-16,
+      "train_last": "20251226",
+      "gap_observations": 6,
+      "rows": 892
+    },
+    {
+      "date": "20260306",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 6.542075908777534e-16,
+      "train_last": "20260116",
+      "gap_observations": 6,
+      "rows": 893
+    },
+    {
+      "date": "20260320",
+      "exit_code": 0,
+      "spearman": 0.9999999999999998,
+      "max_abs_diff": 7.389922007661198e-16,
+      "train_last": "20260130",
+      "gap_observations": 6,
+      "rows": 989
+    },
+    {
+      "date": "20260522",
+      "exit_code": 0,
+      "spearman": 1.0,
+      "max_abs_diff": 6.7914424084492e-16,
+      "train_last": "20260410",
+      "gap_observations": 6,
+      "rows": 993
+    },
+    {
+      "date": "20260626",
+      "exit_code": 0,
+      "spearman": 0.9999999999999998,
+      "max_abs_diff": 1.0755285551056204e-15,
+      "train_last": "20260515",
+      "gap_observations": 6,
+      "rows": 988
+    }
+  ]
+}

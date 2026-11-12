@@ -1,0 +1,12 @@
+{
+  "step": "artifacts",
+  "script": "s29_artifacts.py",
+  "desc": "ARTIFACTS.md",
+  "reads": [
+    "output/strategy2028_loop2/results/*",
+    "output/strategy2026*/…"
+  ],
+  "writes": [
+    "output/strategy2028_loop2/results/*"
+  ]
+}

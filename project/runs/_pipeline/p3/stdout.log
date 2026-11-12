@@ -1,0 +1,23 @@
+[ew] rows=374,737 dates=393 
+[ew] 与已存 2026 等权分数 Spearman = 1.000000（n=41,222）
+[ic] ridge 滚动IC均值 +0.0624  2026 IC -0.0133
+[ic] ew    滚动IC均值 +0.0867  2026 IC +0.1135
+[alarm] ridge theta=+0.0626 告警占比 59%
+[alarm] ew    theta=+0.0992 告警占比 54%
+[long ] A_ridge    10.62% (Sharpe  0.40)
+[long ] A_ew       26.17% (Sharpe  1.12)
+[long ] C_ridge    14.81% (Sharpe  0.66)
+[long ] C_ew       27.75% (Sharpe  1.57)
+[long ] F_r2e      29.30% (Sharpe  1.21)
+[long ] F_e2r      22.78% (Sharpe  0.85)
+[long ] F_placebo   19.49% 区间 [+8.86, +28.56]%
+[hedge] A_ridge   -17.03% (Sharpe -1.03)
+[hedge] A_ew       -3.98% (Sharpe -0.18)
+[hedge] C_ridge   -15.33% (Sharpe -1.58)
+[hedge] C_ew       -5.47% (Sharpe -0.45)
+[hedge] F_r2e      -1.46% (Sharpe -0.04)
+[hedge] F_e2r      -5.74% (Sharpe -0.39)
+[hedge] F_placebo   -9.78% 区间 [-17.73, -2.41]%
+[ok] p3_signals.csv / p3_ew.json
+
+--- stderr ---

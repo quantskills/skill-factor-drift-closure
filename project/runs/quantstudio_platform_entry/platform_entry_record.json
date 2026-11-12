@@ -1,0 +1,452 @@
+{
+  "record_version": 1,
+  "captured_at": "2026-11-12T12:20:04.842817+08:00",
+  "platform": {
+    "name": "QuantStudio",
+    "profile": "quantstudio",
+    "home": "E:\\QuantStudio-Data",
+    "session_id": "session-764fd241-06f5-48f4-97e5-73986f72875f",
+    "session_jsonl": "E:\\QuantStudio-Data\\sessions\\--C-Users-DELL-Documents-QuantSkills--\\session-764fd241-06f5-48f4-97e5-73986f72875f\\session.jsonl.zstd",
+    "session_jsonl_sha256": "9a00c565904d2ae3c18fdb28f13e60acb6c1faf427ae91e9d45973caea791338",
+    "codex_session_id": "01a1c4ba-50e0-7de0-a515-81c05fe08b86",
+    "run_id": null,
+    "run_id_note": "平台未向本会话暴露 run id；本次运行以 runs/_pipeline/run_log.json 的 run_at=2026-11-12T11:32:05.585403+08:00 定位",
+    "gui_registration_verified": false,
+    "external_submission_performed": false,
+    "gui_note": "AGENTS.md 第 11 条：本地 CLI 执行与任何未核验的 GUI 注册/提交必须分开报告"
+  },
+  "workspace": {
+    "confirmed_path": "E:\\period5_package\\period5_package",
+    "confirmed_by": "PowerShell Test-Path + Get-ChildItem（存在 .agents/, config/, data/, runs/, results/v2）",
+    "agent_session_cwd": "C:\\Users\\DELL\\Documents\\QuantSkills",
+    "execution_mode": "每条命令以 workdir=E:\\period5_package\\period5_package 执行（本会话无 QuantStudio 工作区设置能力）"
+  },
+  "entry_point": {
+    "command": "python scripts/run_package.py   # E:\\envs\\LLM\\python.exe -u scripts/run_package.py（workdir=E:\\period5_package\\period5_package）",
+    "interpreter": "E:\\envs\\LLM\\python.exe",
+    "python_version": "3.11.15",
+    "os": "Windows-10-10.0.26200-SP0",
+    "per_AGENTS_md": "第 4 行：current pipeline is python scripts/run_package.py"
+  },
+  "inputs": {
+    "plan_config": {
+      "path": "config/audit_v2.json",
+      "bytes": 1434,
+      "sha256": "ff43ae9e1b89dea371ed7488fc49d5c74b03abe4d47f71ac7984e9a6d6123a59"
+    },
+    "preregistration": {
+      "path": "config/preregistration.json",
+      "bytes": 3492,
+      "sha256": "e2cb18ec508f9fd1fe8767eb2d3302ebed7ae2527fb16b2c5a5712e61dabf39d"
+    },
+    "data_provenance": {
+      "path": "data/provenance.json",
+      "bytes": 1928,
+      "sha256": "d91eab1e89cae26270d1d0542c63cb7ddf46b2134f2856a1d0df2352e7fb5799"
+    },
+    "data_snapshots": [
+      "data/panel_for_platform.csv",
+      "data/provenance.json",
+      "data/third_period_psi.csv",
+      "data/upstream_summary.json",
+      "data/validation_2026_signal.csv",
+      "data/weekly_slim.csv"
+    ]
+  },
+  "pipeline": {
+    "all_ok": true,
+    "full_run": true,
+    "status": "completed",
+    "requested_steps": [
+      "monitor",
+      "robustness",
+      "backtest",
+      "analysis",
+      "report",
+      "verify",
+      "manifest"
+    ],
+    "steps": [
+      {
+        "step": "monitor",
+        "exit_code": 0,
+        "ok": true,
+        "marker": "runs/r01_monitor_entry/run_log.json",
+        "marker_sha256": "a90b8bc74be9ce4a573c7f9430ddf9c764ff17cd1bb7e828fb3baf326875ffcd"
+      },
+      {
+        "step": "robustness",
+        "exit_code": 0,
+        "ok": true,
+        "marker": "results/v2/health_robustness.json",
+        "marker_sha256": "01b318ed46cc05ce6b573b032aa19fc3b7bee396d9004ce275407be8ac148167"
+      },
+      {
+        "step": "backtest",
+        "exit_code": 0,
+        "ok": true,
+        "marker": "results/v2/backtest_audit.json",
+        "marker_sha256": "d381378de93c29f68c9f6e86fbb2dfdd5f3969f5231e0934121f6ab0b4a7bac3"
+      },
+      {
+        "step": "analysis",
+        "exit_code": 0,
+        "ok": true,
+        "marker": "results/v2/inference.json",
+        "marker_sha256": "d45dc065877d24c970d14c5222ff44768fad42cc5e28a316f65b710be82b6c3e"
+      },
+      {
+        "step": "report",
+        "exit_code": 0,
+        "ok": true,
+        "marker": "report.md",
+        "marker_sha256": "6ce27cb8e799581cb599bc3c63d73cb44976b40a2b4e931230201f39403ce4e5"
+      },
+      {
+        "step": "verify",
+        "exit_code": 0,
+        "ok": true,
+        "marker": "verification/ACCEPTANCE_V2.json",
+        "marker_sha256": "0db2824814217f1597d911e1cd81c7d3a3586cd8ae37afbf080d14f2aa2b386f"
+      },
+      {
+        "step": "manifest",
+        "ok": true,
+        "marker": "manifest.json"
+      }
+    ],
+    "runtime": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "scipy": "1.17.1",
+      "matplotlib": "3.10.9",
+      "scikit-learn": "1.8.0"
+    },
+    "run_at": "2026-11-12T11:32:05.585403+08:00"
+  },
+  "command_outputs": {
+    "run_package": {
+      "file": "runs/quantstudio_platform_entry/_entry_console.log",
+      "sha256": "c65eaaf7ff48c32a06e9e09ad676f6fd20475c7efdea5f6ac2e83e344c10daa9",
+      "exit_code": 0,
+      "tail": "[complete] all_ok=True full_run=True steps=7"
+    },
+    "self_audit": {
+      "file": "runs/quantstudio_platform_entry/_self_audit_console.log",
+      "sha256": "295be8eb28a38bd2bd05340b7f312969196b34d0824cb721e0bcec6d5272ce73",
+      "exit_code": 0,
+      "stdout": "[self-audit] Q=61 D=0 V=0 points=0"
+    },
+    "unittest": {
+      "file": "runs/quantstudio_platform_entry/_unittest_console.log",
+      "sha256": "61ce8683fa651bd921fbe5a2043087024a095305d28ebd77e092feab0c24ba7f",
+      "exit_code": 0,
+      "tail": "Ran 11 tests in 1.399s\n\nOK"
+    },
+    "build_manifest": {
+      "file": "runs/quantstudio_platform_entry/_build_manifest_console.log",
+      "sha256": "2f36b4d6a75006382944bef60c135214caa6ede88f168f24349404ecf7bb61f6",
+      "exit_code": 0,
+      "stdout": "[manifest] 602 files, hashes recorded"
+    }
+  },
+  "outputs": {
+    "results_v2": [
+      {
+        "path": "results/v2/attribution.json",
+        "bytes": 6998,
+        "sha256": "dabc9f856374e9ee6e2bf860ce7668d58ab488f4af0f5f6cabd1389f4a91a48d"
+      },
+      {
+        "path": "results/v2/backtest_audit.json",
+        "bytes": 2360,
+        "sha256": "d381378de93c29f68c9f6e86fbb2dfdd5f3969f5231e0934121f6ab0b4a7bac3"
+      },
+      {
+        "path": "results/v2/calibration.json",
+        "bytes": 302,
+        "sha256": "f7f7dfe095c9999106268630b4fae53b0376bfbc1bcc78ab20d8f348d456fd9c"
+      },
+      {
+        "path": "results/v2/cost_decomposition.csv",
+        "bytes": 2402,
+        "sha256": "1b7c30bddd1fa07dc398cf40744cc67a2a3a06f39f5a26302dd9ce177f8418dc"
+      },
+      {
+        "path": "results/v2/episode_reconciliation.csv",
+        "bytes": 1578,
+        "sha256": "cbb4788d209056ed308a33cf938a9e4c7f21d6d85cb07eb201dda601120064ac"
+      },
+      {
+        "path": "results/v2/episodes.csv",
+        "bytes": 5568,
+        "sha256": "ad0d42e268adda399221a2e974f3365687b9660282f9a6b8262b3652f945d84f"
+      },
+      {
+        "path": "results/v2/false_alarm.csv",
+        "bytes": 3384,
+        "sha256": "a73b42cfe13760672570a7fd599e25017ca9a136d7d326172e4533f6801c71d1"
+      },
+      {
+        "path": "results/v2/health_path_sensitivity.csv",
+        "bytes": 1250,
+        "sha256": "6030602afc2c0e247ef42f7ead0551bfe647c2baa223a1cb459844773ba66916"
+      },
+      {
+        "path": "results/v2/health_robustness.json",
+        "bytes": 358,
+        "sha256": "01b318ed46cc05ce6b573b032aa19fc3b7bee396d9004ce275407be8ac148167"
+      },
+      {
+        "path": "results/v2/inference.json",
+        "bytes": 523,
+        "sha256": "d45dc065877d24c970d14c5222ff44768fad42cc5e28a316f65b710be82b6c3e"
+      },
+      {
+        "path": "results/v2/metrics.json",
+        "bytes": 12779,
+        "sha256": "c609263571f1533c590508fb2fa850a89a887a8f120203ae57692dbf2a19421b"
+      },
+      {
+        "path": "results/v2/missing_return_sensitivity.json",
+        "bytes": 12855,
+        "sha256": "d9549f05a25ffb4c34149193cfdea4776020e28afc7eff1a5ae097b016e31e54"
+      },
+      {
+        "path": "results/v2/monitor.csv",
+        "bytes": 27680,
+        "sha256": "d869b512ef226d09b5d04e8deae3c3d33b7f9142fb7b31013910801c2017343a"
+      },
+      {
+        "path": "results/v2/multiplicity.csv",
+        "bytes": 5327,
+        "sha256": "7cb49a784f9f2c3e86ff343d85715547276fe9f0c5b4ce39d3f3605a1d41dd92"
+      },
+      {
+        "path": "results/v2/placebo.csv",
+        "bytes": 10401,
+        "sha256": "e24d47eb109cb3148e0f8fa5f7d8722209f8e7e04c48d2bc71c370eab62ad5b1"
+      },
+      {
+        "path": "results/v2/platform_refits.json",
+        "bytes": 2475,
+        "sha256": "405af10259f9f02758bf8ac53260839c048846f3b514185e43e8db7dcc7ee71f"
+      },
+      {
+        "path": "results/v2/recovery.json",
+        "bytes": 8393,
+        "sha256": "099d346758c920d383d696f410bbe7296d615f04107ed89198eeab604ddb95f7"
+      },
+      {
+        "path": "results/v2/trades.csv",
+        "bytes": 369667,
+        "sha256": "427207724d5bf072062d9f5c4b43d140f37f2abdfaeb859c4c6b27ec015d27a9"
+      }
+    ],
+    "verification": [
+      {
+        "path": "verification/ACCEPTANCE_V2.json",
+        "bytes": 7485,
+        "sha256": "0db2824814217f1597d911e1cd81c7d3a3586cd8ae37afbf080d14f2aa2b386f"
+      },
+      {
+        "path": "verification/MONITOR_ENTRY_VERIFY.json",
+        "bytes": 1683,
+        "sha256": "a90b8bc74be9ce4a573c7f9430ddf9c764ff17cd1bb7e828fb3baf326875ffcd"
+      },
+      {
+        "path": "verification/ONE_WEEK_LABEL_VERIFY.json",
+        "bytes": 952,
+        "sha256": "afc5c0ed748faa21247f4307630a5f23cdb71b35d115ace5a0bd2a31b9c3b0b0"
+      },
+      {
+        "path": "verification/PKG_VERIFY.json",
+        "bytes": 3655,
+        "sha256": "747f4123eb3fa1452dd3a4b2316fb4ed6c5a7c14dd4bfe0b748ac905ea56bf30"
+      },
+      {
+        "path": "verification/SELF_AUDIT_SCORE.json",
+        "bytes": 1764,
+        "sha256": "ad9e71a0ceb248e4b4a19028c1a0a4082f3010bf831d68658a86bf485af861a3"
+      },
+      {
+        "path": "verification/unit_tests.log",
+        "bytes": 1596,
+        "sha256": "dad0e79172d35442fe224351e88b715801d9c50b0cf50cd94275b6146e494e87"
+      }
+    ],
+    "reports": [
+      {
+        "path": "report.md",
+        "bytes": 25134,
+        "sha256": "8cdde23924aed5be6e82f9786abd558b83cea363d0298c72af17ea3bee807730"
+      },
+      {
+        "path": "dashboard.html",
+        "bytes": 6528,
+        "sha256": "b90ed6cc355bb379017ab45ac6bd7c95b2fc60a1e5dc1de9c825688677681471"
+      },
+      {
+        "path": "manifest.json",
+        "bytes": 110039,
+        "sha256": "e5faefce9a4e17dc831c16ce93d2e0480bbbd2789a0c0d43ecfeb4b6b60e4270"
+      },
+      {
+        "path": "TASK_CHECKLIST.md",
+        "bytes": 2614,
+        "sha256": "7d2ae4cf7f9eb722f4a31d0b9285e90339e682cc5c545c5fb062c59e987f0ce1"
+      },
+      {
+        "path": "DATA_CONTRACT.md",
+        "bytes": 2954,
+        "sha256": "ce14edf72cb7982828d6057828299e14d6de7d8aa384437d424acacb5678c056"
+      }
+    ],
+    "pipeline_step_dirs": [
+      {
+        "path": "runs/_pipeline/v2_analysis/cmd.txt",
+        "bytes": 84,
+        "sha256": "29014b23f20d068cbdc980e842937f5d4eb13cea00c64992149e53f0a94e19a3"
+      },
+      {
+        "path": "runs/_pipeline/v2_backtest/cmd.txt",
+        "bytes": 83,
+        "sha256": "e4fb4c4fc894c8d23f3de0d74e4ea67d334f3b3364bd1b86caceea112557f315"
+      },
+      {
+        "path": "runs/_pipeline/v2_monitor/cmd.txt",
+        "bytes": 93,
+        "sha256": "3ae4561c5d0a4a2074d2f69147d54fb1b047ed1e8c5cbb975e86e6371f157032"
+      },
+      {
+        "path": "runs/_pipeline/v2_report/cmd.txt",
+        "bytes": 83,
+        "sha256": "23b67abcc4dbfbf533df03fc52663adaa32572a8175baeb808cd2ebd4fbd5bfa"
+      },
+      {
+        "path": "runs/_pipeline/v2_robustness/cmd.txt",
+        "bytes": 94,
+        "sha256": "5922112147dde7ddde1626d31d6364496837bf6a5e2659cbff338be9c6e4c57a"
+      },
+      {
+        "path": "runs/_pipeline/v2_verify/cmd.txt",
+        "bytes": 83,
+        "sha256": "e6ef1c1b5a1be93199845b081cc85492f69f9b2368fe24e756169d6448d58554"
+      },
+      {
+        "path": "runs/_pipeline/v2_analysis/input.json",
+        "bytes": 414,
+        "sha256": "d42a674365ac275def3954297d3228303fd0154d0a7a74ca46db4a7005303c6c"
+      },
+      {
+        "path": "runs/_pipeline/v2_backtest/input.json",
+        "bytes": 413,
+        "sha256": "a4db72b7f15dcc1a8923a415c5e69991becc30b20e1d6a3eacadc7a25e697e1c"
+      },
+      {
+        "path": "runs/_pipeline/v2_monitor/input.json",
+        "bytes": 423,
+        "sha256": "00098459229148b459b9d6115d7809e578ad01671fe4f51438d81b47ba5cb39a"
+      },
+      {
+        "path": "runs/_pipeline/v2_report/input.json",
+        "bytes": 413,
+        "sha256": "1aa547483ea5f857513d57c28c1d4c99f97b29f4e2537dc455a7cb9965d50ff8"
+      },
+      {
+        "path": "runs/_pipeline/v2_robustness/input.json",
+        "bytes": 424,
+        "sha256": "e73c75317e3efb48b1fb2cd23c8f3a28d6b5b5c3b66dac818f240e620d85200b"
+      },
+      {
+        "path": "runs/_pipeline/v2_verify/input.json",
+        "bytes": 413,
+        "sha256": "c0811faef7f1628a972f132c6c504e24a9b77c21c80aba1f3e5ae2417582f6ba"
+      },
+      {
+        "path": "runs/_pipeline/v2_analysis/status.json",
+        "bytes": 192,
+        "sha256": "c9105f3dad6b72e2fef5acf2b805ed41b1ac0bc253d037c3c3add83dd6307c2d"
+      },
+      {
+        "path": "runs/_pipeline/v2_backtest/status.json",
+        "bytes": 197,
+        "sha256": "7d0fc01d6add3baf51c79d5aee7dc77f935e593635656b8dfcd7a2c070e57b3c"
+      },
+      {
+        "path": "runs/_pipeline/v2_monitor/status.json",
+        "bytes": 201,
+        "sha256": "073ae759da576fa02570546f8896ab2bd6f27ac39a845c7271db00b9d535f315"
+      },
+      {
+        "path": "runs/_pipeline/v2_report/status.json",
+        "bytes": 174,
+        "sha256": "487288d59b39803557559a4be670ff1e6d9a1e97dc033000318171112e42b740"
+      },
+      {
+        "path": "runs/_pipeline/v2_robustness/status.json",
+        "bytes": 202,
+        "sha256": "d080390237a78d407d27a392ee42f3cabccd8d6f112138d997dac2ccd6070b1c"
+      },
+      {
+        "path": "runs/_pipeline/v2_verify/status.json",
+        "bytes": 196,
+        "sha256": "95bf00e4d066e84e097a5b80cf0e99234d905210e5998f00a3f52a5febb587df"
+      },
+      {
+        "path": "runs/_pipeline/v2_analysis/stdout.log",
+        "bytes": 82,
+        "sha256": "56c25812ecb787b4961144b43ca31eeec1da21c37a63ac8fcb5da4deeb5855d9"
+      },
+      {
+        "path": "runs/_pipeline/v2_backtest/stdout.log",
+        "bytes": 725,
+        "sha256": "c4cd3ebec463e95b389e02b82dcdf49ffbe48b3f5a787a57f4da4e79478c7f4d"
+      },
+      {
+        "path": "runs/_pipeline/v2_monitor/stdout.log",
+        "bytes": 1716,
+        "sha256": "89b2219fc0e1ace98050526e9ca9ae39f044c92b3aadd3854769ff532e523134"
+      },
+      {
+        "path": "runs/_pipeline/v2_report/stdout.log",
+        "bytes": 45,
+        "sha256": "73718196cdfacb307ac27c71a3d5962c15eefa22e19322a36bb5d4586f1b63e0"
+      },
+      {
+        "path": "runs/_pipeline/v2_robustness/stdout.log",
+        "bytes": 94,
+        "sha256": "f8db63992fba9fb23b22ac334f85522412049a5c21b779e3eb9ea177639d031e"
+      },
+      {
+        "path": "runs/_pipeline/v2_verify/stdout.log",
+        "bytes": 54,
+        "sha256": "09c780626dcb5e02dd6ff30142fb7b219078ffbb5b2b8fc336be8fe4e584bf2e"
+      }
+    ]
+  },
+  "self_audit": {
+    "Q": 90,
+    "D": 1.0,
+    "V": 0.8,
+    "points": 72,
+    "checks": {
+      "frozen_baseline_and_mature_labels": true,
+      "drift_cli_warning_reaches_three_action_arms": true,
+      "false_alarm_cost_and_recovery_latency": true,
+      "test_period_training_isolation": true,
+      "full_run_and_acceptance": true,
+      "gui_registration_verified": false,
+      "quantstudio_project_run_verified": true,
+      "quantstudio_session_execution_verified": true
+    },
+    "scoring_note": "QuantStudio real session execution and persisted input/output records are verified. No independent platform run id or task-page submission was exposed; GUI registration remains unverified. V=0.80 because the research value is directional and multiplicity-adjusted evidence is negative."
+  },
+  "declarations": {
+    "legacy_scripts_not_used": "s28_*/s29_*/s30_*/s33_* 未用于本次实验（AGENTS.md 第 5 行）",
+    "retrospective": "2026 已检查样本，不声称未被触碰的确认集；preregistration.json 不作为前瞻注册（AGENTS.md 第 7 行）",
+    "failed_run_policy": "full_run=true 由 run_log.json 真实记录，未对失败运行做任何编辑（AGENTS.md 第 8 行）",
+    "preserved_conventions": "成熟度 5 周 / 持有 4 期 / 仅 2024 校准 / 全换手 / 初始权益回撤 / 右删失告警 / 全假设家族（第 9 行）",
+    "no_eval_period_selection": "未用评估期敏感性结果选参数；健康参数不稳定与缺失收益敏感性已入报告（第 10 行）"
+  }
+}

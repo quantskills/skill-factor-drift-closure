@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "status": "historical v1 declaration, superseded; not a prospective registration",
+  "superseded_by": "config/audit_v2.json",
+  "created_for": "第五期（下一期）闭环实验的预注册",
+  "frozen_at": "2026-11-10",
+  "rationale": "本期发现『换信号』方向性优于『降仓/重训』但多重比较校正后不显著；为避免下一期再次事后选阈值/选动作，先把口径冻结。",
+  "universe_and_data": {
+    "panel": "output/strategy2026_loop/records/panel_for_platform.csv（393 周度截面）",
+    "fwd_return": "T+1 开盘 → T+1+5 开盘，周度截面",
+    "eval_start_frozen": true,
+    "note": "2026 只用于验证，不参与任何选择"
+  },
+  "signal_set": {
+    "primary": "ridge（平台记录 04）",
+    "alternatives": ["equal_weight_raw_mean_54factors"],
+    "no_new_signals": "本期不得引入未在上期出现过的信号，避免选择偏差"
+  },
+  "monitor": {
+    "statistic": "成熟标签滚动 13 周 RankIC 均值",
+    "maturity_gate_weeks": 5,
+    "calibration_window": "2024 全年（只允许这一窗口）",
+    "theta_rule": "2024 监控值中位数（q=0.5）",
+    "exit_rule": "回补到 2024 监控值中位数以上才解除",
+    "no_tuning": "禁止在评估窗口内调整 q 或 theta"
+  },
+  "actions_under_test": {
+    "A": "不动作（基线）",
+    "B": "恒半仓",
+    "C": "告警期降权 ×0.5",
+    "D": "告警后按平台 156 日滚动窗重训",
+    "F": "告警期切换到第二信号（本期唯一方向性可行项）"
+  },
+  "expressions": ["long_top50_ew_tradable", "hedge_long_minus_same_pool_ew"],
+  "costs": {"one_way": 0.0008, "borrow_annual": 0.02, "impact_cost": 0.0},
+  "evaluation": {
+    "backtest": "4 相位平均后复利，周度 52 期/年",
+    "primary_statistic": "对冲账本、F 臂相对 A 的每期净收益差均值",
+    "secondary": ["多头账本同量", "2026 子区间", "Sharpe", "平均暴露"],
+    "family_size_declared": 16,
+    "multiplicity": ["BH (FDR 0.05/0.10)", "White Reality Check 正负双侧"],
+    "significance_rule": "只有 BH p ≤ 0.10 且 Reality Check p ≤ 0.10 才可称『可靠正/负结果』",
+    "placebos": {
+      "action_placebo_seeds": 20,
+      "same_count_dates": true,
+      "retrain_placebo_seeds": 25,
+      "retrain_placebo_note": "50 seeds 会触发内存上限，25 为上限；区间宽度须与效应量一同报告"
+    },
+    "decomposition_required": ["暴露 vs 择时（x, x·down 回归，HC1）", "Δgross vs Δcost"],
+    "power": "报告 MDE(80%) 与 breakeven precision，禁止在 MDE 大于效应量时宣称结论"
+  },
+  "platform_evidence": {
+    "required_records": "每次重训必须由 ml_ensemble.py 真实入口生成记录（cmd/input/stdout/oos/sha256）",
+    "equivalence_threshold": {"spearman_min": 0.999999, "centered_max_abs_diff_max": 1e-09}
+  },
+  "stop_conditions": [
+    "若 F 臂在 BH 与 Reality Check 下均不显著，则本期不得上线任何基于预警的动作，只保留诊断看板",
+    "若 D 臂落在随机重训安慰剂 p5–p95 内，则不再把『重训』列为候选动作",
+    "若 C 臂的 Δcost 占 Δnet 超过 50%，则该结果只能表述为『省成本』而非『修 alpha』"
+  ],
+  "reporting": {
+    "must_report": ["BH p", "Reality Check p", "安慰剂分位", "Δgross/Δcost", "MDE", "适用边界"],
+    "negative_result_policy": "可靠负结果同等计入价值，但必须给出样本量与 MDE 的对照"
+  }
+}

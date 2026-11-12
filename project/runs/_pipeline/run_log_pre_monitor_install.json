@@ -1,0 +1,14 @@
+{
+  "run_at": "2026-11-10T17:04:21",
+  "steps": [
+    {
+      "step": "p1",
+      "script": "s29_p1_platform_refits.py",
+      "exit_code": 1,
+      "ok": false,
+      "record": "runs/_pipeline/p1"
+    }
+  ],
+  "monitor_entry_supplied": false,
+  "all_ok": false
+}

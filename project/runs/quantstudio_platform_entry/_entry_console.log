@@ -1,0 +1,81 @@
+[start] monitor
+health: exit=0
+drift: exit=0
+{
+  "run_at": "2026-11-12T11:32:19.501728+08:00",
+  "source": "E:\\period5_package\\period5_package\\data\\weekly_slim.csv",
+  "source_sha256": "3f5802f18b4577e522111bc72af6c97c28d956bb8219ad64ee85d93a14067a28",
+  "maturity_weeks": 5,
+  "time_unit": "weekly observations, not daily",
+  "use": "health CLI probabilities/CUSUM feed v2 health arms; original v1 triggers retained only in archive",
+  "steps": {
+    "health": {
+      "exit_code": 0,
+      "ok": true,
+      "record": "runs\\r01_monitor_entry\\health_entry"
+    },
+    "drift": {
+      "exit_code": 0,
+      "ok": true,
+      "record": "runs\\r01_monitor_entry\\drift_entry"
+    }
+  },
+  "all_ok": true,
+  "maturity_all_ok": true,
+  "health_ic_max_abs_error": 9.75781955236954e-17,
+  "health_observations": 232,
+  "health_baseline_last_available_date": "2024-09-06",
+  "health_summary": [
+    {
+      "factor": "ridge_score_wf",
+      "health_score": 0,
+      "decline_probability": 1.0,
+      "alert_level": "红",
+      "recommended_weight_multiplier": 0.0,
+      "current_posterior_ic": 0.0125093669765867,
+      "baseline_ic": 0.0929580954204916,
+      "latest_cusum_alarm": false
+    }
+  ],
+  "drift_status_counts": {
+    "warning": 6,
+    "normal": 1,
+    "watch": 1
+  },
+  "limitations": [
+    "Health default windows 20/60/120 count weeks on this panel",
+    "New health algorithm differs from frozen 13-week IC median threshold",
+    "Drift uses 2024 baseline and no forward-return column",
+    "Only results/v2 health arms use these CLI alerts; archived v1 returns do not",
+    "Installed in project .agents/skills; QuantStudio GUI registration not verified"
+  ]
+}
+[start] robustness
+[health robustness] 27 combinations, path alarm share spread=0.719; default policy unchanged
+[start] backtest
+[refit] 20250103: rho=1.000000000 error=1.7e-15
+[refit] 20250228: rho=1.000000000 error=9.4e-16
+[refit] 20250704: rho=1.000000000 error=8.2e-16
+[refit] 20251010: rho=1.000000000 error=9e-16
+[refit] 20251205: rho=1.000000000 error=7.5e-16
+[refit] 20260123: rho=1.000000000 error=6.5e-16
+[refit] 20260206: rho=1.000000000 error=6.4e-16
+[refit] 20260306: rho=1.000000000 error=6.5e-16
+[refit] 20260320: rho=1.000000000 error=7.4e-16
+[refit] 20260522: rho=1.000000000 error=6.8e-16
+[refit] 20260626: rho=1.000000000 error=1.1e-15
+[backtest] long: 13 arms completed
+[backtest] hedge: 13 arms completed
+[placebo] 10/50 seeds
+[placebo] 20/50 seeds
+[placebo] 30/50 seeds
+[placebo] 40/50 seeds
+[placebo] 50/50 seeds
+[start] analysis
+[analysis] 24 hypotheses, 22 cycles; accounting and censored episodes reconciled
+[start] report
+[report] wrote report.md and dashboard.html
+[start] verify
+[verify] 77 checks passed; 8 regression tests passed
+[manifest] 599 files, hashes recorded
+[complete] all_ok=True full_run=True steps=7

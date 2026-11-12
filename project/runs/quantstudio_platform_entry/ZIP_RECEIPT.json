@@ -1,0 +1,14 @@
+{
+  "archive": "E:\\period5_package\\period5_package_quantstudio_verified.zip",
+  "source_root": "E:\\period5_package\\period5_package",
+  "file_count": 608,
+  "sha256": "5919b41a0ecd699451f8493fa4246f2701c2439eb71b9c29ee4859cbd106ce5d",
+  "excluded": [
+    ".git",
+    ".pytest_cache",
+    ".venv",
+    "__pycache__"
+  ],
+  "external_quantstudio_session": "E:/QuantStudio-Data/sessions/.../session.jsonl.zstd (referenced by platform_entry_record.json; not copied into package)",
+  "bytes": 910544461
+}

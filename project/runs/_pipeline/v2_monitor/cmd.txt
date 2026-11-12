@@ -1,0 +1,1 @@
+E:\envs\LLM\python.exe -u E:\period5_package\period5_package\scripts\run_monitor_entries.py

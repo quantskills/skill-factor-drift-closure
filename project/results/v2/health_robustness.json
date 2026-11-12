@@ -1,0 +1,8 @@
+{
+  "parameter_sets": 27,
+  "evaluation_alarm_share_min": 0.28125,
+  "evaluation_alarm_share_max": 1.0,
+  "max_disagreement_with_default": 0.4166666666666667,
+  "stable_across_path_parameters": false,
+  "note": "Default policy remains fixed; latest-only upstream red-rate stability does not prove path stability; no labeled decay events available"
+}

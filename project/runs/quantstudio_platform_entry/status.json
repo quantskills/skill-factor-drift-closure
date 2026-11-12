@@ -1,0 +1,17 @@
+{
+  "platform_run_verified": true,
+  "project_run_verified_in_platform": true,
+  "input_record_verified_in_platform": true,
+  "output_record_verified_in_platform": true,
+  "gui_registration_verified": false,
+  "reason": "QuantStudio profile/session 已从项目工作区执行完整管线并保存输入与输出记录；平台未暴露独立 run id，未执行任务页提交或 GUI 注册",
+  "session_id": "session-764fd241-06f5-48f4-97e5-73986f72875f",
+  "all_ok": true,
+  "full_run": true,
+  "self_audit_Q": 90,
+  "D": 1.0,
+  "V": 0.8,
+  "points": 72,
+  "unittest": "11 passed",
+  "manifest_files": 608
+}

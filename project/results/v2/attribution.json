@@ -1,0 +1,222 @@
+[
+  {
+    "expression": "hedge",
+    "arm": "C_drift",
+    "coef_action": 0.016382234282488,
+    "coef_action_down": -0.03606798425259079,
+    "t_action": 3.3607615758946907,
+    "t_action_down": -5.897746108875585,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "C_health",
+    "coef_action": 0.015341160650702453,
+    "coef_action_down": -0.04612469613906936,
+    "t_action": 3.3327015763065573,
+    "t_action_down": -9.411261295131805,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "C_ic",
+    "coef_action": 0.022788094599973323,
+    "coef_action_down": -0.05109972439586291,
+    "t_action": 4.075654989164225,
+    "t_action_down": -8.995054701885824,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "C_psi",
+    "coef_action": 0.008436508322763518,
+    "coef_action_down": -0.005405919790623422,
+    "t_action": 13.310719213520708,
+    "t_action_down": -8.205973067690481,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "D_drift",
+    "coef_action": -0.006204224407653111,
+    "coef_action_down": 0.019791346867854703,
+    "t_action": -0.9297169722952251,
+    "t_action_down": 1.789695776270437,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "D_health",
+    "coef_action": 0.0077050116838056236,
+    "coef_action_down": 0.00667838273039496,
+    "t_action": 2.1560905406001223,
+    "t_action_down": 1.4364839024440743,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "D_ic",
+    "coef_action": -0.0024874994463228483,
+    "coef_action_down": 0.002236406764902025,
+    "t_action": -0.8345023904642147,
+    "t_action_down": 0.9694263017256701,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "F_drift",
+    "coef_action": -0.02183962201768316,
+    "coef_action_down": 0.0393420919669779,
+    "t_action": -2.692803918655274,
+    "t_action_down": 2.5872305376164086,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "F_health",
+    "coef_action": -0.009553118033055244,
+    "coef_action_down": 0.04558311804370049,
+    "t_action": -1.0716070985483004,
+    "t_action_down": 2.266248601513434,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "hedge",
+    "arm": "F_ic",
+    "coef_action": -0.016804154512343947,
+    "coef_action_down": 0.06372066328290032,
+    "t_action": -1.2416370998890067,
+    "t_action_down": 1.999115781051531,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "C_drift",
+    "coef_action": 0.03628609152896276,
+    "coef_action_down": -0.08104590076016054,
+    "t_action": 3.882784023674508,
+    "t_action_down": -6.445915455348494,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "C_health",
+    "coef_action": 0.037426068307266455,
+    "coef_action_down": -0.077726688245648,
+    "t_action": 4.729725870927404,
+    "t_action_down": -7.74107673567236,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "C_ic",
+    "coef_action": 0.04473035715130908,
+    "coef_action_down": -0.07827962204997278,
+    "t_action": 4.329393095117292,
+    "t_action_down": -6.428400926971084,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "C_psi",
+    "coef_action": 0.010872731767262701,
+    "coef_action_down": 0.00012133557235266372,
+    "t_action": 1.411388032765437,
+    "t_action_down": 0.015152660551200946,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "D_drift",
+    "coef_action": -0.0024584170524718533,
+    "coef_action_down": 0.01940230375622037,
+    "t_action": -0.4787829168777287,
+    "t_action_down": 1.3776781547898813,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "D_health",
+    "coef_action": 0.007759682344596226,
+    "coef_action_down": 0.0056276375043299385,
+    "t_action": 3.3144674630169484,
+    "t_action_down": 0.9434997982892641,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "D_ic",
+    "coef_action": -0.0033233094542902434,
+    "coef_action_down": 0.004267319818410062,
+    "t_action": -1.3339526118563139,
+    "t_action_down": 1.8461187663956766,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "F_drift",
+    "coef_action": -0.018331550968920644,
+    "coef_action_down": 0.04818681550493925,
+    "t_action": -3.0538913449078984,
+    "t_action_down": 2.6861292669366206,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "F_health",
+    "coef_action": -0.014720705637812682,
+    "coef_action_down": 0.05284542854944689,
+    "t_action": -1.9206880458520463,
+    "t_action_down": 2.821919402332637,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  },
+  {
+    "expression": "long",
+    "arm": "F_ic",
+    "coef_action": -0.022308028006318342,
+    "coef_action_down": 0.07598106483589859,
+    "t_action": -2.23033602452134,
+    "t_action_down": 3.145982155790386,
+    "rank": 3,
+    "causal": false,
+    "note": "ex-post down-period split; not proof of beta timing or alpha repair"
+  }
+]

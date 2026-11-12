@@ -1,0 +1,7 @@
+{
+  "step": "verify",
+  "exit_code": 0,
+  "ok": true,
+  "marker": "verification/ACCEPTANCE_V2.json",
+  "marker_sha256": "0db2824814217f1597d911e1cd81c7d3a3586cd8ae37afbf080d14f2aa2b386f"
+}

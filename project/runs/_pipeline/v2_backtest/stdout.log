@@ -1,0 +1,18 @@
+[refit] 20250103: rho=1.000000000 error=1.7e-15
+[refit] 20250228: rho=1.000000000 error=9.4e-16
+[refit] 20250704: rho=1.000000000 error=8.2e-16
+[refit] 20251010: rho=1.000000000 error=9e-16
+[refit] 20251205: rho=1.000000000 error=7.5e-16
+[refit] 20260123: rho=1.000000000 error=6.5e-16
+[refit] 20260206: rho=1.000000000 error=6.4e-16
+[refit] 20260306: rho=1.000000000 error=6.5e-16
+[refit] 20260320: rho=1.000000000 error=7.4e-16
+[refit] 20260522: rho=1.000000000 error=6.8e-16
+[refit] 20260626: rho=1.000000000 error=1.1e-15
+[backtest] long: 13 arms completed
+[backtest] hedge: 13 arms completed
+[placebo] 10/50 seeds
+[placebo] 20/50 seeds
+[placebo] 30/50 seeds
+[placebo] 40/50 seeds
+[placebo] 50/50 seeds

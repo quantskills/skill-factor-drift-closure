@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "eval_start": "20250103",
+  "eval_end": "20260911",
+  "cycles_per_phase": 22,
+  "phases": 4,
+  "holding_observations": 4,
+  "maturity_observations": 5,
+  "cost": {
+    "one_way": 0.0008,
+    "borrow_annual": 0.02,
+    "impact": 0
+  },
+  "monitor": {
+    "theta": 0.05130805648859771,
+    "start": "20240105",
+    "end": "20241227",
+    "observations": 51,
+    "uses_evaluation_data": false,
+    "exit_threshold_equals_entry": true,
+    "latch_extra_delay": 0,
+    "health_baseline_end": "20240906",
+    "health_cli": "runs/r01_monitor_entry/health_entry"
+  },
+  "result_directory": "results/v2"
+}

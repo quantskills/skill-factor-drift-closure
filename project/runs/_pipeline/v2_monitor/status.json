@@ -1,0 +1,7 @@
+{
+  "step": "monitor",
+  "exit_code": 0,
+  "ok": true,
+  "marker": "runs/r01_monitor_entry/run_log.json",
+  "marker_sha256": "a90b8bc74be9ce4a573c7f9430ddf9c764ff17cd1bb7e828fb3baf326875ffcd"
+}

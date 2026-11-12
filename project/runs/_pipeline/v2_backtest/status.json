@@ -1,0 +1,7 @@
+{
+  "step": "backtest",
+  "exit_code": 0,
+  "ok": true,
+  "marker": "results/v2/backtest_audit.json",
+  "marker_sha256": "d381378de93c29f68c9f6e86fbb2dfdd5f3969f5231e0934121f6ab0b4a7bac3"
+}

@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "E:\\envs\\LLM\\python.exe",
+    "-u",
+    "E:\\period5_package\\period5_package\\scripts\\verify_v2.py"
+  ],
+  "script_sha256": "5734b2f65ab5b9cf0588b26573358754c2e727b9793c3a3d904de6ac71e0e78a",
+  "plan_sha256": "ff43ae9e1b89dea371ed7488fc49d5c74b03abe4d47f71ac7984e9a6d6123a59",
+  "local_data_provenance_sha256": "d91eab1e89cae26270d1d0542c63cb7ddf46b2134f2856a1d0df2352e7fb5799"
+}

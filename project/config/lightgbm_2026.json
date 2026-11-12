@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "status": "retrospective exploratory 2026 model comparison; not an untouched confirmation set",
+  "test_start": "20260101",
+  "test_end": "20261231",
+  "train_observations": 156,
+  "maturity_observations": 5,
+  "hold_observations": 4,
+  "update_step": 4,
+  "seed": 20261111,
+  "primary_model": "lightgbm_frozen",
+  "secondary_model": "lightgbm_rolling",
+  "parameters": {
+    "objective": "regression",
+    "n_estimators": 200,
+    "num_leaves": 15,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "subsample_freq": 0,
+    "colsample_bytree": 0.8,
+    "random_state": 20261111,
+    "n_jobs": 4,
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1
+  },
+  "parameter_source": "upstream skill defaults, with explicit seed/thread count/determinism; subsample_freq=0 means row bagging is inactive",
+  "selection_policy": "fixed 54 upstream factors; no 2026 hyperparameter search, early stopping, feature selection, or model choice",
+  "training_rows": "all merged panel rows with complete factors and finite mature return, matching the v2 Ridge training convention",
+  "portfolio_pool": "common v2 pool: in_universe AND entry_tradable AND all factors finite AND archived score_wf finite",
+  "missing_return": "zero imputation and -100% sensitivity, never filter the pool using future return availability",
+  "inference": "descriptive comparison only; every model and both expressions retained; no superiority or significance claim"
+}

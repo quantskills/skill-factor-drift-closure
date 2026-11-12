@@ -1,0 +1,21 @@
+expression,arm,episodes,exposed_episodes,unexposed_episodes,hits,losses,neutral,precision_descriptive,gain_sum,false_alarm_cost,breakeven_precision,definition
+hedge,C_drift,1,1,0,1,0,0,1.0,0.044040326127871655,0.0,,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,C_health,5,5,0,1,4,0,0.2,0.03526964692461511,0.031747724454596345,0.1836972857841243,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,C_ic,7,7,0,3,4,0,0.42857142857142855,0.027948392186777873,0.04239230155008835,0.5321866875109149,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,C_psi,1,1,0,0,1,0,0.0,0.0,0.007392882285491799,,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,D_drift,1,1,0,1,0,0,1.0,0.08261483685502445,0.0,,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,D_health,5,5,0,2,3,0,0.4,0.07382478311975668,0.022310301823526647,0.1676867717441937,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,D_ic,7,7,0,4,3,0,0.5714285714285714,0.014908761068719047,0.00594333890598642,0.34705811636335593,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,F_drift,1,1,0,1,0,0,1.0,0.022112540166896157,0.0,,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,F_health,5,5,0,2,3,0,0.4,0.154060466292661,0.11006222280739315,0.32261843774536075,positive/negative action P&L; not independently labeled drift detection accuracy
+hedge,F_ic,7,7,0,4,3,0,0.5714285714285714,0.1459082028929819,0.09425908621625263,0.4627570126244022,positive/negative action P&L; not independently labeled drift detection accuracy
+long,C_drift,1,1,0,0,1,0,0.0,0.0,0.038583499761126516,,positive/negative action P&L; not independently labeled drift detection accuracy
+long,C_health,5,5,0,1,4,0,0.2,0.057893675651422324,0.09146413607094944,0.2831366545448266,positive/negative action P&L; not independently labeled drift detection accuracy
+long,C_ic,7,7,0,4,3,0,0.5714285714285714,0.04561456027448216,0.08781175332940805,0.7196347267708961,positive/negative action P&L; not independently labeled drift detection accuracy
+long,C_psi,1,1,0,0,1,0,0.0,0.0,0.007307089660531426,,positive/negative action P&L; not independently labeled drift detection accuracy
+long,D_drift,1,1,0,1,0,0,1.0,0.08264784500664948,0.0,,positive/negative action P&L; not independently labeled drift detection accuracy
+long,D_health,5,5,0,2,3,0,0.4,0.07380456623756851,0.02231002058068473,0.1677232413546117,positive/negative action P&L; not independently labeled drift detection accuracy
+long,D_ic,7,7,0,4,3,0,0.5714285714285714,0.014903971417000051,0.005944265037926816,0.3471662462325811,positive/negative action P&L; not independently labeled drift detection accuracy
+long,F_drift,1,1,0,1,0,0,1.0,0.02218356267759223,0.0,,positive/negative action P&L; not independently labeled drift detection accuracy
+long,F_health,5,5,0,2,3,0,0.4,0.1540955466252432,0.11003542720088724,0.3225154794185863,positive/negative action P&L; not independently labeled drift detection accuracy
+long,F_ic,7,7,0,4,3,0,0.5714285714285714,0.14590965044727955,0.09424675874360522,0.46272202989285716,positive/negative action P&L; not independently labeled drift detection accuracy

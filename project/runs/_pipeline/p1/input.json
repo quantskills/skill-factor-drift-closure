@@ -1,0 +1,12 @@
+{
+  "step": "p1",
+  "script": "s29_p1_platform_refits.py",
+  "desc": "8 条重训走 ml_ensemble.py 真实入口",
+  "reads": [
+    "output/strategy2028_loop2/results/*",
+    "output/strategy2026*/…"
+  ],
+  "writes": [
+    "output/strategy2028_loop2/results/*"
+  ]
+}

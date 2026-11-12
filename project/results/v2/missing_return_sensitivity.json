@@ -1,0 +1,496 @@
+[
+  {
+    "expression": "long",
+    "arm": "A",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.23244869627838385,
+    "phase_totals": [
+      -0.07454840336270696,
+      -0.28751811022415263,
+      -0.2064514486499699,
+      -0.3612768228767059
+    ],
+    "sharpe_mean": -0.5006031085248753,
+    "worst_phase_mdd": -0.44845559189230944,
+    "cost_sum_mean": 0.027431541647911596,
+    "avg_exposure": 1.0,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "B",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.11344045382474915,
+    "phase_totals": [
+      -0.026134495346270104,
+      -0.14067842313701184,
+      -0.09860571743267221,
+      -0.18834317938304246
+    ],
+    "sharpe_mean": -0.5003561260799894,
+    "worst_phase_mdd": -0.24684951495833551,
+    "cost_sum_mean": 0.013666596275951872,
+    "avg_exposure": 0.5,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "A_ew",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.2854449947568422,
+    "phase_totals": [
+      -0.2710819403539456,
+      -0.15708448435546996,
+      -0.38296549442880945,
+      -0.3306480598891438
+    ],
+    "sharpe_mean": -0.6339342712157012,
+    "worst_phase_mdd": -0.5005892212806425,
+    "cost_sum_mean": 0.027072443837695945,
+    "avg_exposure": 1.0,
+    "missing_long": 111,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "C_ic",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.23915330302555304,
+    "phase_totals": [
+      -0.0849568919460072,
+      -0.3554191915635271,
+      -0.16089575040014137,
+      -0.35534137819253653
+    ],
+    "sharpe_mean": -0.6794456034484779,
+    "worst_phase_mdd": -0.4399022101016178,
+    "cost_sum_mean": 0.02235597192940083,
+    "avg_exposure": 0.7897727272727273,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "D_ic",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.2197596651673303,
+    "phase_totals": [
+      -0.03443585965474494,
+      -0.3438574192632635,
+      -0.20610508206973222,
+      -0.29464029968158056
+    ],
+    "sharpe_mean": -0.4614919999760506,
+    "worst_phase_mdd": -0.4699977441053842,
+    "cost_sum_mean": 0.027718627257611317,
+    "avg_exposure": 1.0,
+    "missing_long": 98,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "F_ic",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.22460727111825865,
+    "phase_totals": [
+      -0.19887840684887315,
+      -0.27961302238170815,
+      -0.13535850694869866,
+      -0.28457914829375464
+    ],
+    "sharpe_mean": -0.5521611210163624,
+    "worst_phase_mdd": -0.43408683114599145,
+    "cost_sum_mean": 0.028589526041175338,
+    "avg_exposure": 1.0,
+    "missing_long": 102,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "C_health",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.17803121903072391,
+    "phase_totals": [
+      0.013389951569026337,
+      -0.30044943584910944,
+      -0.1815013791171889,
+      -0.24356401272562367
+    ],
+    "sharpe_mean": -0.5930116980915947,
+    "worst_phase_mdd": -0.3868804637210832,
+    "cost_sum_mean": 0.018517548631991503,
+    "avg_exposure": 0.6647727272727273,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "D_health",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.199002118417299,
+    "phase_totals": [
+      -0.08905957979688295,
+      -0.23099735299787738,
+      -0.198726985378613,
+      -0.2772245554958227
+    ],
+    "sharpe_mean": -0.41781595435671615,
+    "worst_phase_mdd": -0.414510550892322,
+    "cost_sum_mean": 0.02701557090596781,
+    "avg_exposure": 1.0,
+    "missing_long": 88,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "F_health",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.3478994531935267,
+    "phase_totals": [
+      -0.281915950460067,
+      -0.3381153562055552,
+      -0.41556181233989165,
+      -0.356004693768593
+    ],
+    "sharpe_mean": -0.8327959363552878,
+    "worst_phase_mdd": -0.47605719912167366,
+    "cost_sum_mean": 0.02803765560252209,
+    "avg_exposure": 1.0,
+    "missing_long": 131,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "C_psi",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.23731340026999964,
+    "phase_totals": [
+      -0.08676216847905915,
+      -0.30362253653135907,
+      -0.1966234518016471,
+      -0.36224544426793326
+    ],
+    "sharpe_mean": -0.5180161068744001,
+    "worst_phase_mdd": -0.4609223035420843,
+    "cost_sum_mean": 0.026351324440252358,
+    "avg_exposure": 0.9545454545454546,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "C_drift",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.1310556057313731,
+    "phase_totals": [
+      -0.02169771555135469,
+      -0.14951525459372184,
+      -0.11639240039756849,
+      -0.23661705238284736
+    ],
+    "sharpe_mean": -0.41681466033885384,
+    "worst_phase_mdd": -0.3104405712183844,
+    "cost_sum_mean": 0.017781084024405255,
+    "avg_exposure": 0.6477272727272727,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "D_drift",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.2663390492233354,
+    "phase_totals": [
+      -0.26365310002830966,
+      -0.22851371398289144,
+      -0.18400500557309585,
+      -0.38918437730904465
+    ],
+    "sharpe_mean": -0.5767593935014461,
+    "worst_phase_mdd": -0.46427204262259536,
+    "cost_sum_mean": 0.025156107093898445,
+    "avg_exposure": 1.0,
+    "missing_long": 117,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "long",
+    "arm": "F_drift",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.33820456110691577,
+    "phase_totals": [
+      -0.2941647560496006,
+      -0.18002771182125255,
+      -0.4198430667408337,
+      -0.45878270981597613
+    ],
+    "sharpe_mean": -0.7646975880528524,
+    "worst_phase_mdd": -0.5429534110937067,
+    "cost_sum_mean": 0.026779433801292857,
+    "avg_exposure": 1.0,
+    "missing_long": 125,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "A",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.15857648280058023,
+    "phase_totals": [
+      0.00037936492761092566,
+      -0.23383298255984553,
+      -0.1571823594243088,
+      -0.24366995414577752
+    ],
+    "sharpe_mean": -0.6909004362589595,
+    "worst_phase_mdd": -0.3106447965052568,
+    "cost_sum_mean": 0.06418321671363707,
+    "avg_exposure": 1.0,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "B",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.08069659661363121,
+    "phase_totals": [
+      0.002073780605850395,
+      -0.11916265964209938,
+      -0.07910893438397093,
+      -0.12658857303430493
+    ],
+    "sharpe_mean": -0.6903098874814033,
+    "worst_phase_mdd": -0.16630983727587112,
+    "cost_sum_mean": 0.03202971698578566,
+    "avg_exposure": 0.5,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "A_ew",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.21752390910919084,
+    "phase_totals": [
+      -0.2107028644654254,
+      -0.12235042327494039,
+      -0.32814009443338377,
+      -0.2089022542630138
+    ],
+    "sharpe_mean": -0.9453906308390783,
+    "worst_phase_mdd": -0.3870697794953931,
+    "cost_sum_mean": 0.06388613934353823,
+    "avg_exposure": 1.0,
+    "missing_long": 111,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "C_ic",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.17119545360924743,
+    "phase_totals": [
+      -0.04747905666397423,
+      -0.2818979506642314,
+      -0.15012601276699256,
+      -0.20527879434179153
+    ],
+    "sharpe_mean": -0.9710421461727476,
+    "worst_phase_mdd": -0.3062218709349792,
+    "cost_sum_mean": 0.053874494238709436,
+    "avg_exposure": 0.7897727272727273,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "D_ic",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.14432303846272584,
+    "phase_totals": [
+      0.04386800597536844,
+      -0.29330250522546886,
+      -0.15808535249389377,
+      -0.1697723021069092
+    ],
+    "sharpe_mean": -0.5646103116998007,
+    "worst_phase_mdd": -0.33592058346312414,
+    "cost_sum_mean": 0.06446594638483288,
+    "avg_exposure": 1.0,
+    "missing_long": 98,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "F_ic",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.15692727947288626,
+    "phase_totals": [
+      -0.13658114633335694,
+      -0.24972954386500446,
+      -0.08490898306649519,
+      -0.15648944462668846
+    ],
+    "sharpe_mean": -0.726636832148039,
+    "worst_phase_mdd": -0.3355429515391032,
+    "cost_sum_mean": 0.06537862604040326,
+    "avg_exposure": 1.0,
+    "missing_long": 102,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "C_health",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.16280808235000704,
+    "phase_totals": [
+      -0.03400485508735385,
+      -0.24193768248570668,
+      -0.17139043325294911,
+      -0.20389935857401853
+    ],
+    "sharpe_mean": -1.0465843134053552,
+    "worst_phase_mdd": -0.28251327696060236,
+    "cost_sum_mean": 0.044582814073500066,
+    "avg_exposure": 0.6647727272727273,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "D_health",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.12356306471355738,
+    "phase_totals": [
+      -0.01217077131467037,
+      -0.17965917346068971,
+      -0.15009169690501312,
+      -0.15233061717385632
+    ],
+    "sharpe_mean": -0.5037718841381684,
+    "worst_phase_mdd": -0.2722602574561558,
+    "cost_sum_mean": 0.06377557319787648,
+    "avg_exposure": 1.0,
+    "missing_long": 88,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "F_health",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.2808100626803989,
+    "phase_totals": [
+      -0.21998893336754965,
+      -0.30907425779436903,
+      -0.3595320246630901,
+      -0.23464503489658672
+    ],
+    "sharpe_mean": -1.3753481289473033,
+    "worst_phase_mdd": -0.4066635301774597,
+    "cost_sum_mean": 0.06480876197901612,
+    "avg_exposure": 1.0,
+    "missing_long": 131,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "C_psi",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.16475944326252387,
+    "phase_totals": [
+      -0.0026643754299107147,
+      -0.24687110473931495,
+      -0.15771469831267426,
+      -0.25178759456819555
+    ],
+    "sharpe_mean": -0.7281561711108218,
+    "worst_phase_mdd": -0.32237578617673457,
+    "cost_sum_mean": 0.06222186303408007,
+    "avg_exposure": 0.9545454545454546,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "C_drift",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.11498803794948534,
+    "phase_totals": [
+      -0.03178070445303749,
+      -0.14356251141330678,
+      -0.09849646548276159,
+      -0.1861124704488355
+    ],
+    "sharpe_mean": -0.7002047673196128,
+    "worst_phase_mdd": -0.20404256004558907,
+    "cost_sum_mean": 0.04224591954986896,
+    "avg_exposure": 0.6477272727272727,
+    "missing_long": 93,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "D_drift",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.19644525074108068,
+    "phase_totals": [
+      -0.18755437964859945,
+      -0.1851796656173682,
+      -0.13686622938934834,
+      -0.27618072830900675
+    ],
+    "sharpe_mean": -0.8072120081851673,
+    "worst_phase_mdd": -0.310248107625851,
+    "cost_sum_mean": 0.06195341920188484,
+    "avg_exposure": 1.0,
+    "missing_long": 117,
+    "missing_pool": 1553
+  },
+  {
+    "expression": "hedge",
+    "arm": "F_drift",
+    "cycles": 22,
+    "phase_count": 4,
+    "total": -0.2724201406909602,
+    "phase_totals": [
+      -0.2362243874624298,
+      -0.13621850491178922,
+      -0.3632975104491516,
+      -0.35394015994047034
+    ],
+    "sharpe_mean": -1.2940229180976484,
+    "worst_phase_mdd": -0.4336796169036976,
+    "cost_sum_mean": 0.06354525731873097,
+    "avg_exposure": 1.0,
+    "missing_long": 125,
+    "missing_pool": 1553
+  }
+]

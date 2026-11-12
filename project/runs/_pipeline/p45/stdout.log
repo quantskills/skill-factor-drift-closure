@@ -1,0 +1,14 @@
+[long ] C_T1   平均效应 +4.01%/单位 (t=+3.68)  下跌期额外 -8.94%/单位 (t=-4.45)  R²=0.65
+[long ] F_r2e  平均效应 -1.75%/单位 (t=-2.49)  下跌期额外 +6.70%/单位 (t=+3.21)  R²=0.55
+[hedge] C_T1   平均效应 +1.62%/单位 (t=+2.82)  下跌期额外 -5.82%/单位 (t=-4.40)  R²=0.69
+[hedge] F_r2e  平均效应 -1.43%/单位 (t=-1.72)  下跌期额外 +6.40%/单位 (t=+2.42)  R²=0.42
+[long ] C_T1   Δgross +1.90pp  Δcost -0.35pp  → Δnet +2.25pp
+[long ] D_T1   Δgross +0.28pp  Δcost +0.02pp  → Δnet +0.27pp
+[long ] D2_T1  Δgross +1.98pp  Δcost -0.35pp  → Δnet +2.32pp
+[long ] F_r2e  gross/cost 未保存，成本拆分跳过
+[hedge] C_T1   Δgross +0.35pp  Δcost -1.13pp  → Δnet +1.48pp
+[hedge] D_T1   Δgross +0.40pp  Δcost +0.02pp  → Δnet +0.38pp
+[hedge] D2_T1  Δgross +0.49pp  Δcost -1.13pp  → Δnet +1.62pp
+[hedge] F_r2e  gross/cost 未保存，成本拆分跳过
+
+--- stderr ---

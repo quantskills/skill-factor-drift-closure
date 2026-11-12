@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "E:\\envs\\LLM\\python.exe",
+    "-u",
+    "E:\\period5_package\\period5_package\\scripts\\engine_v2.py"
+  ],
+  "script_sha256": "75637900d3e8738807c8ca9490e527810aaecc9c46b91cba221ddcef408e992b",
+  "plan_sha256": "ff43ae9e1b89dea371ed7488fc49d5c74b03abe4d47f71ac7984e9a6d6123a59",
+  "local_data_provenance_sha256": "d91eab1e89cae26270d1d0542c63cb7ddf46b2134f2856a1d0df2352e7fb5799"
+}

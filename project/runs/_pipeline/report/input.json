@@ -1,0 +1,12 @@
+{
+  "step": "report",
+  "script": "s29_report.py",
+  "desc": "report.md + dashboard.html",
+  "reads": [
+    "output/strategy2028_loop2/results/*",
+    "output/strategy2026*/…"
+  ],
+  "writes": [
+    "output/strategy2028_loop2/results/*"
+  ]
+}

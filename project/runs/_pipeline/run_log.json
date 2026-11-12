@@ -1,0 +1,74 @@
+{
+  "run_at": "2026-11-12T11:32:05.585403+08:00",
+  "requested_steps": [
+    "monitor",
+    "robustness",
+    "backtest",
+    "analysis",
+    "report",
+    "verify",
+    "manifest"
+  ],
+  "full_run": true,
+  "status": "completed",
+  "all_ok": true,
+  "steps": [
+    {
+      "step": "monitor",
+      "exit_code": 0,
+      "ok": true,
+      "marker": "runs/r01_monitor_entry/run_log.json",
+      "marker_sha256": "a90b8bc74be9ce4a573c7f9430ddf9c764ff17cd1bb7e828fb3baf326875ffcd"
+    },
+    {
+      "step": "robustness",
+      "exit_code": 0,
+      "ok": true,
+      "marker": "results/v2/health_robustness.json",
+      "marker_sha256": "01b318ed46cc05ce6b573b032aa19fc3b7bee396d9004ce275407be8ac148167"
+    },
+    {
+      "step": "backtest",
+      "exit_code": 0,
+      "ok": true,
+      "marker": "results/v2/backtest_audit.json",
+      "marker_sha256": "d381378de93c29f68c9f6e86fbb2dfdd5f3969f5231e0934121f6ab0b4a7bac3"
+    },
+    {
+      "step": "analysis",
+      "exit_code": 0,
+      "ok": true,
+      "marker": "results/v2/inference.json",
+      "marker_sha256": "d45dc065877d24c970d14c5222ff44768fad42cc5e28a316f65b710be82b6c3e"
+    },
+    {
+      "step": "report",
+      "exit_code": 0,
+      "ok": true,
+      "marker": "report.md",
+      "marker_sha256": "6ce27cb8e799581cb599bc3c63d73cb44976b40a2b4e931230201f39403ce4e5"
+    },
+    {
+      "step": "verify",
+      "exit_code": 0,
+      "ok": true,
+      "marker": "verification/ACCEPTANCE_V2.json",
+      "marker_sha256": "0db2824814217f1597d911e1cd81c7d3a3586cd8ae37afbf080d14f2aa2b386f"
+    },
+    {
+      "step": "manifest",
+      "ok": true,
+      "marker": "manifest.json"
+    }
+  ],
+  "python": "E:\\envs\\LLM\\python.exe",
+  "scope": "v2 only; archive/legacy_v1 retained",
+  "runtime": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.8.0"
+  },
+  "completed_at": "2026-11-12T11:37:20.464884+08:00"
+}

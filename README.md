@@ -23,3 +23,13 @@ python scripts/closed_loop_evaluation.py --panel data/panel.csv --alerts data/al
 ## 许可与边界
 
 本项目采用 GPL-3.0-only。不附带市场数据，也不包含任何凭据。所有结果都是历史数据和假设条件下的研究证据，不代表未来表现。
+
+## 项目实现代码
+
+完整项目实现位于 [`project/`](project/)，包括 `engine_v2.py` 闭环回测引擎、监控入口、重训与统计分析、报告生成、验收脚本、回归测试、冻结配置、QuantStudio 运行证据和紧凑结果快照。原始市场面板、滚动重训中间文件和凭据不随 Skill 发布；按 `project/DATA_CONTRACT.md` 提供本地授权数据即可复现。
+
+```powershell
+cd project
+python -m unittest discover -s tests -v
+python scripts/run_package.py
+```

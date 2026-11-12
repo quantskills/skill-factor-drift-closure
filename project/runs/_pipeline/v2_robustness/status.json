@@ -1,0 +1,7 @@
+{
+  "step": "robustness",
+  "exit_code": 0,
+  "ok": true,
+  "marker": "results/v2/health_robustness.json",
+  "marker_sha256": "01b318ed46cc05ce6b573b032aa19fc3b7bee396d9004ce275407be8ac148167"
+}

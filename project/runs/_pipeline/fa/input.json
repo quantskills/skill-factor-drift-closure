@@ -1,0 +1,12 @@
+{
+  "step": "fa",
+  "script": "s30_false_alarm.py",
+  "desc": "误报成本 + 恢复延迟 + 样本外五臂对照",
+  "reads": [
+    "output/strategy2028_loop2/results/*",
+    "output/strategy2026*/…"
+  ],
+  "writes": [
+    "output/strategy2028_loop2/results/*"
+  ]
+}

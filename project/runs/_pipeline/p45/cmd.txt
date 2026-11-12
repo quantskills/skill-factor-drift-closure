@@ -1,0 +1,1 @@
+E:\envs\LLM\python.exe -u C:\Users\DELL\Documents\QuantSkills\output\period5_package\scripts\s29_p4p5_decompose.py

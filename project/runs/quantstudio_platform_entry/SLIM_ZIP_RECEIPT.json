@@ -1,0 +1,15 @@
+{
+  "archive": "E:\\period5_package\\period5_package_quantstudio_slim.zip",
+  "source_root": "E:\\period5_package\\period5_package",
+  "file_count": 585,
+  "bytes": 20853164,
+  "sha256": "a39bfabb300e0cc8e419dda8d2cbb5e743093a6a132539a34c2dc6e40e878901",
+  "excluded_policy": [
+    "data/panel_for_platform.csv",
+    "*/panel_window.csv.gz",
+    "*/health_panel.csv",
+    "*/drift_panel.csv",
+    "git/cache dirs"
+  ],
+  "full_archive": "E:\\period5_package\\period5_package_quantstudio_verified.zip"
+}
