@@ -1,5 +1,7 @@
 # skill-factor-drift-closure
 
+QuantSkills release maintainer: [abgyjaguo](https://github.com/abgyjaguo).
+
 English | [简体中文](README.md)
 
 This QuantSkills skill evaluates whether a factor-drift alert creates net value after the response action. It compares no action, fixed de-risking, alert-triggered downweighting, retraining and signal switching out of sample, with false-alarm cost and recovery latency.
